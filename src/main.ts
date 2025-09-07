@@ -16,5 +16,5 @@ const sampleProduct = new Product(1, "Demo Product", 20, 50);
 // console.log(sampleProduct.getDetails());
 
 const sampleProduct1 = new PhysicalProduct(1, "Demo Product", 20, 50);
-console.log(sampleProduct.getStockValue());
-console.log(sampleProduct1.getStockValue());
+// console.log(sampleProduct.getStockValue());
+// console.log(sampleProduct1.getStockValue());
