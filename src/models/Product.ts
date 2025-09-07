@@ -29,12 +29,11 @@
 //   }
 // }
 
-
 export class Product {
-  id: number;
-  name: string;
-  price: number;
-  quantity: number;
+  private id: number;
+  private name: string;
+  public price: number;
+  private quantity: number;
 
   constructor(id: number, name: string, price: number, quantity: number) {
     this.id = id;
